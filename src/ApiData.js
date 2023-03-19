@@ -2,7 +2,7 @@ export const Users = [
   {
     id: 1,
     profilePicture:
-      "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/322736707_721366569275545_2506796905047294357_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=K9_6zlDCGkoAX-hc1Oc&_nc_oc=AQnf_JdFrwazhNvg5x8Kowkp2rTEpFkRbUpNEwxPKpg2H-_cmSKri0Hsita74od-ygQ&_nc_ht=scontent-sin6-2.xx&oh=00_AfAjunrRrakg3YYXs76SL0KFy1504BWopwWeiPgR82K2gw&oe=641BDB22",
+      "https://i.postimg.cc/B6z4YFZ6/331913513-748386013566373-8683688952064742324-n.jpg",
     username: "Nwe Ni Oo",
   },
   {
@@ -66,7 +66,7 @@ export const Posts = [
     id: 1,
     desc: "Love For All, Hatred For None.",
     photo:
-      "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/322736707_721366569275545_2506796905047294357_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=K9_6zlDCGkoAX-hc1Oc&_nc_oc=AQnf_JdFrwazhNvg5x8Kowkp2rTEpFkRbUpNEwxPKpg2H-_cmSKri0Hsita74od-ygQ&_nc_ht=scontent-sin6-2.xx&oh=00_AfAjunrRrakg3YYXs76SL0KFy1504BWopwWeiPgR82K2gw&oe=641BDB22",
+      "https://i.postimg.cc/B6z4YFZ6/331913513-748386013566373-8683688952064742324-n.jpg",
 
     date: "5 mins ago",
     userId: 1,

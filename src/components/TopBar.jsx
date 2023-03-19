@@ -61,7 +61,7 @@ const TopBar = () => {
           </div>
         </div>
         <img
-          src="https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-6/335040885_3039189736377925_4833158108769635834_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aAFBpxrmyMwAX_MBNFZ&_nc_ht=scontent-sin6-3.xx&oh=00_AfC1sSrXZSicLrzhYEYD6Avm616jJIteENDxIiavBIfo_w&oe=641B7DB7"
+          src="https://i.postimg.cc/13yXNp8h/335040885-3039189736377925-4833158108769635834-n.jpg"
           alt=""
           className=" w-8 h-8 rounded-full object-cover"
         />
