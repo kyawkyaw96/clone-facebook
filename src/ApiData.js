@@ -1,52 +1,62 @@
 export const Users = [
   {
     id: 1,
-    profilePicture: "public/30680950-3f55-4049-8673-64897fa4ac11.jpg",
-    username: "Safak Kocaoglu",
+    profilePicture:
+      "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/322736707_721366569275545_2506796905047294357_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=K9_6zlDCGkoAX-hc1Oc&_nc_oc=AQnf_JdFrwazhNvg5x8Kowkp2rTEpFkRbUpNEwxPKpg2H-_cmSKri0Hsita74od-ygQ&_nc_ht=scontent-sin6-2.xx&oh=00_AfAjunrRrakg3YYXs76SL0KFy1504BWopwWeiPgR82K2gw&oe=641BDB22",
+    username: "Nwe Ni Oo",
   },
   {
     id: 2,
-    profilePicture: "public/FB_IMG_1632189052457.jpg",
+    profilePicture:
+      "https://i.pinimg.com/564x/f9/cc/2c/f9cc2c5b23756d8ac765e41a6ca6fcd8.jpg",
     username: "Janell Shrum",
   },
   {
     id: 3,
-    profilePicture: "public/FB_IMG_1643189795037.jpg",
+    profilePicture:
+      "https://i.pinimg.com/564x/48/7d/f9/487df9d1139f65d71f6e056956a2b692.jpg",
     username: "Alex Durden",
   },
   {
     id: 4,
-    profilePicture: "public/FB_IMG_1657552072580.jpg",
+    profilePicture:
+      "https://i.pinimg.com/564x/df/5b/2c/df5b2c8f514917017b155ced0acbf0cc.jpg",
     username: "Dora Hawks",
   },
   {
     id: 5,
-    profilePicture: "public/FB_IMG_1659091335276.jpg",
+    profilePicture:
+      "https://i.pinimg.com/564x/8e/84/e1/8e84e10f80699e31f1b167cfc82038ab.jpg",
     username: "Thomas Holden",
   },
   {
     id: 6,
-    profilePicture: "public/FB_IMG_1659152988090.jpg",
+    profilePicture:
+      "https://i.pinimg.com/736x/1f/fd/8d/1ffd8d270f7a4587e61deab30c938f30.jpg",
     username: "Shirley Beauchamp",
   },
   {
     id: 7,
-    profilePicture: "public/FB_IMG_1659192826130.jpg",
+    profilePicture:
+      "https://i.pinimg.com/736x/2c/f9/2c/2cf92cc6db4ad3bd831facd2bad00046.jpg",
     username: "Travis Bennett",
   },
   {
     id: 8,
-    profilePicture: "public/received_1211128763068964.jpeg",
+    profilePicture:
+      "https://i.pinimg.com/736x/4f/c5/78/4fc578e5909feb8f730855d0f78fd5af.jpg",
     username: "Kristen Thomas",
   },
   {
     id: 9,
-    profilePicture: "public/FB_IMG_1677844997867.jpg",
+    profilePicture:
+      "https://i.pinimg.com/564x/6f/28/6d/6f286d218191739d8b24bde8aa96fe9f.jpg",
     username: "Gary Duty",
   },
   {
     id: 10,
-    profilePicture: "public/IMG-2ce2759ffffa0c978cc4d475b18dae44-V.jpg",
+    profilePicture:
+      "https://i.pinimg.com/564x/c9/d3/6c/c9d36c285c37f70ac7c06bb3c2a28a92.jpg",
     username: "Safak Kocaoglu",
   },
 ];
@@ -55,7 +65,9 @@ export const Posts = [
   {
     id: 1,
     desc: "Love For All, Hatred For None.",
-    photo: "public/30680950-3f55-4049-8673-64897fa4ac11.jpg",
+    photo:
+      "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/322736707_721366569275545_2506796905047294357_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=K9_6zlDCGkoAX-hc1Oc&_nc_oc=AQnf_JdFrwazhNvg5x8Kowkp2rTEpFkRbUpNEwxPKpg2H-_cmSKri0Hsita74od-ygQ&_nc_ht=scontent-sin6-2.xx&oh=00_AfAjunrRrakg3YYXs76SL0KFy1504BWopwWeiPgR82K2gw&oe=641BDB22",
+
     date: "5 mins ago",
     userId: 1,
     like: 32,
@@ -63,7 +75,9 @@ export const Posts = [
   },
   {
     id: 2,
-    photo: "public/FB_IMG_1632189052457.jpg",
+    photo:
+      "https://i.pinimg.com/564x/f9/cc/2c/f9cc2c5b23756d8ac765e41a6ca6fcd8.jpg",
+
     date: "15 mins ago",
     userId: 2,
     like: 2,
@@ -72,7 +86,9 @@ export const Posts = [
   {
     id: 3,
     desc: "Every moment is a fresh beginning.",
-    photo: "public/FB_IMG_1643189795037.jpg",
+    photo:
+      "https://i.pinimg.com/564x/48/7d/f9/487df9d1139f65d71f6e056956a2b692.jpg",
+
     date: "1 hour ago",
     userId: 3,
     like: 61,
@@ -80,7 +96,9 @@ export const Posts = [
   },
   {
     id: 4,
-    photo: "public/FB_IMG_1657552072580.jpg",
+    photo:
+      "https://i.pinimg.com/564x/df/5b/2c/df5b2c8f514917017b155ced0acbf0cc.jpg",
+
     date: "4 hours ago",
     userId: 4,
     like: 7,
@@ -88,7 +106,9 @@ export const Posts = [
   },
   {
     id: 5,
-    photo: "public/FB_IMG_1659091335276.jpg",
+    photo:
+      "https://i.pinimg.com/564x/8e/84/e1/8e84e10f80699e31f1b167cfc82038ab.jpg",
+
     date: "5 hours ago",
     userId: 5,
     like: 23,
@@ -96,7 +116,9 @@ export const Posts = [
   },
   {
     id: 6,
-    photo: "public/FB_IMG_1659152988090.jpg",
+    photo:
+      "https://i.pinimg.com/736x/1f/fd/8d/1ffd8d270f7a4587e61deab30c938f30.jpg",
+
     date: "1 day ago",
     userId: 6,
     like: 44,
@@ -105,7 +127,9 @@ export const Posts = [
   {
     id: 7,
     desc: "Never regret anything that made you smile.",
-    photo: "public/FB_IMG_1659192826130.jpg",
+    photo:
+      "https://i.pinimg.com/736x/2c/f9/2c/2cf92cc6db4ad3bd831facd2bad00046.jpg",
+
     date: "2 days ago",
     userId: 7,
     like: 52,
@@ -113,7 +137,9 @@ export const Posts = [
   },
   {
     id: 8,
-    photo: "public/received_1211128763068964.jpeg",
+    photo:
+      "https://i.pinimg.com/736x/4f/c5/78/4fc578e5909feb8f730855d0f78fd5af.jpg",
+
     date: "3 days ago",
     userId: 8,
     like: 15,
@@ -122,7 +148,9 @@ export const Posts = [
   {
     id: 9,
     desc: "Change the world by being yourself.",
-    photo: "public/FB_IMG_1677844997867.jpg",
+    photo:
+      "https://i.pinimg.com/564x/6f/28/6d/6f286d218191739d8b24bde8aa96fe9f.jpg",
+
     date: "5 days ago",
     userId: 9,
     like: 11,
@@ -130,7 +158,9 @@ export const Posts = [
   },
   {
     id: 10,
-    photo: "public/IMG-2ce2759ffffa0c978cc4d475b18dae44-V.jpg",
+    photo:
+      "https://i.pinimg.com/564x/c9/d3/6c/c9d36c285c37f70ac7c06bb3c2a28a92.jpg",
+
     date: "1 week ago",
     userId: 10,
     like: 104,

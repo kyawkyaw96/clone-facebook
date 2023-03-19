@@ -13,7 +13,7 @@ const RightBar = () => {
           </p>
         </div>
         <img
-          src="public/assets/_.jpeg"
+          src="https://i.pinimg.com/564x/8f/e8/97/8fe897dd57e52e008e6fd122f72e4798.jpg"
           alt=""
           className=" w-full h-[300px] rounded-md my-3"
         />
