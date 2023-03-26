@@ -2,8 +2,9 @@ import React from "react";
 import { FaBirthdayCake } from "react-icons/fa";
 import RightBarOnline from "./RightBarOnline";
 import {Users} from "../ApiData"
-const RightBar = () => {
+const RightBar = ({show}) => {
   return (
+    // <div className={ !show?("hidden"):(" col-span-1 ")}>
     <div className=" col-span-1">
       <div className=" p-3">
         <div className=" flex ">

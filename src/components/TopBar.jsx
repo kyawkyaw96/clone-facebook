@@ -2,14 +2,18 @@ import React from "react";
 import { IoMdNotifications } from "react-icons/io";
 import { BsFillPersonFill } from "react-icons/bs";
 import { BiMessageDetail } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const TopBar = () => {
   return (
-    <nav className=" grid grid-cols-12 justify-center items-center bg-blue-500 p-3 top-0 sticky">
+    <nav className="flex md:grid md:grid-cols-12 justify-between items-center bg-blue-500 p-3 top-0 sticky">
       <div className=" col-span-3 ">
-        <span className=" text-2xl pl-3 font-bold text-white">Facebook</span>
+        <Link to={"/home"}>
+          <span className=" text-2xl pl-3 font-bold text-white">Facebook</span>
+        </Link>
       </div>
-      <div className=" col-span-5 ">
+
+      <div className=" hidden md:inline-block col-span-5 ">
         <div className="relative w-full">
           <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
             <svg
@@ -29,42 +33,44 @@ const TopBar = () => {
           <input
             type="text"
             id="simple-search"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-1"
+            className="bg-gray-50 border border-gray-300 outline-none text-gray-900 text-sm rounded-lg block w-full pl-10 p-1"
             placeholder="Search for friend, post or video"
             required
           />
         </div>
       </div>
-      <div className=" col-span-4 flex justify-between px-3 text-white items-center">
-        <div className=" ">
+      <div className=" flex md:col-span-4  justify-between px-3 text-white items-center">
+        <div className="  hidden md:inline-block">
           <span className=" mr-2">Homepage</span>
           <span className="">Timeline</span>
         </div>
         <div className=" flex justify-center items-center gap-1">
           <div className=" relative">
-            <BsFillPersonFill className=" text-2xl" />
+            <BsFillPersonFill className=" text-xl" />
             <span className="  text-xs absolute w-3.5 h-3.5 items-center top-[-5px] right-[-5px] flex justify-center bg-red-500 text-white rounded-full">
               1
             </span>
           </div>
           <div className=" relative">
-            <BiMessageDetail className=" text-2xl" />
+            <BiMessageDetail className=" text-xl" />
             <span className="text-xs absolute w-3.5 h-3.5 items-center top-[-5px] right-[-5px] flex justify-center bg-red-500 text-white rounded-full">
               1
             </span>
           </div>
           <div className=" relative">
-            <IoMdNotifications className=" text-2xl" />
+            <IoMdNotifications className=" text-xl" />
             <span className="text-xs absolute w-3.5 h-3.5 items-center top-[-5px] right-[-5px] flex justify-center bg-red-500 text-white rounded-full">
               1
             </span>
           </div>
         </div>
-        <img
-          src="https://i.postimg.cc/13yXNp8h/335040885-3039189736377925-4833158108769635834-n.jpg"
-          alt=""
-          className=" w-8 h-8 rounded-full object-cover"
-        />
+        <Link to={"/home"}>
+          <img
+            src="https://i.postimg.cc/13yXNp8h/335040885-3039189736377925-4833158108769635834-n.jpg"
+            alt=""
+            className="ml-3 w-8 h-8 rounded-full object-cover"
+          />
+        </Link>
       </div>
     </nav>
   );

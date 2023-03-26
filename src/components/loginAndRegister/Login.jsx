@@ -23,10 +23,10 @@ const Login = ({ name, password }) => {
   };
 
   return (
-    <div className=" bg-gray-100 flex items-center justify-center w-full h-screen">
+    <div className=" bg-gray-100 flex flex-col sm:flex-row  items-center justify-center w-full h-screen">
       <div className=" p-3">
-        <h1 className=" text-4xl font-bold text-blue-500">Facebook</h1>
-        <p>
+        <h1 className=" text-4xl font-bold text-blue-500 pb-5">Facebook</h1>
+        <p className=" text-gray-500">
           Connect with friends and the world around <br /> you on Facebook
         </p>
       </div>
@@ -61,6 +61,7 @@ const Login = ({ name, password }) => {
           <span className=" text-sm text-gray-400 hover:underline hover:text-black">
             Forget password?
           </span>
+          <p className=" text-gray-500">Don't have account?<span className=" cursor-pointer text-green-500"> SignUp</span></p>
         </div>
       </form>
     </div>

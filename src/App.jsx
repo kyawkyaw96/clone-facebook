@@ -4,6 +4,7 @@ import Register from "./components/loginAndRegister/Register";
 import React, { useState } from "react";
 
 import Home from "./pages/Home";
+import RightBar from "./components/RightBar";
 
 const App = () => {
   const [name, setName] = useState("");
@@ -20,7 +21,7 @@ const App = () => {
     // console.log(user);
   };
   return (
-    <div className="font-sans">
+    <div className="font-sans hide-scrollbar">
       <Routes>
         <Route
           path="/"
@@ -41,6 +42,9 @@ const App = () => {
             />}
         />
         <Route path="/home" element={<Home />} />
+        <Route path="/rightBar" element={<RightBar />} />
+
+
       </Routes>
     </div>
   );

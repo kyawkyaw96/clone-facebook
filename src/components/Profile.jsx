@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Feed from "./Feed";
 import RightBar from "./RightBar";
+import { CgDetailsMore } from "react-icons/cg";
+import { Link } from "react-router-dom";
 
 const Profile = () => {
+  const [show, setShow] = useState(false);
+  const showToggle = () => {
+    setShow(!show);
+  };
   return (
     <div className=" col-span-9 h-[calc(100vh-56px)] w-full overflow-y-scroll">
       <div className="flex flex-col items-center m-3">
@@ -23,10 +29,27 @@ const Profile = () => {
         <h1 className=" font-bold my-2 text-lg">Kyaw Kyaw</h1>
         <p className=" tracking-wider ">
           Silence is better than unmeaning words
-          
         </p>
       </div>
-      <div className=" grid grid-cols-3 mt-8">
+      <div className="md:hidden grid sm:grid-cols-3 mt-8">
+        <div className="sm:hidden font-thin mt-3 text-center text-sm">
+          <b className=" text-gray-400">Nwe Ni</b> and <b className=" text-gray-400">2 other friends </b>have a birthday today.
+          <button
+            onClick={showToggle}
+            className="block mx-auto mt-2 px-3 py-1 text-gray-500 rounded-sm bg-gray-100 hover:font-bold"
+          >
+            Show
+          </button>
+        </div>
+        {show ? (
+          <RightBar />
+        ) : (
+          <>
+            <Feed />
+          </>
+        )}
+      </div>
+      <div className="hidden md:grid sm:grid-cols-3 mt-8">
         <Feed />
         <RightBar />
       </div>

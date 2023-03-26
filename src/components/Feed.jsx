@@ -5,7 +5,7 @@ import { Posts } from "../ApiData";
 
 const Feed = () => {
   return (
-    <div className=" p-5 col-span-2 w-full ">
+    <div className=" p-5 sm:col-span-2 w-full ">
       <Share />
 
       {Posts.map((p) => (

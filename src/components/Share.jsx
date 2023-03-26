@@ -5,9 +5,10 @@ import {
   MdOutlineEmojiEmotions,
 } from "react-icons/md";
 import { AiFillTag } from "react-icons/ai";
+import { Link } from "react-router-dom";
 const Share = () => {
   return (
-    <div className=" w-full h-36 ">
+    <div className=" w-full md:h-36 ">
       <div className=" border-sm shadow-lg p-4">
         <div className=" flex gap-4">
           <img
@@ -27,19 +28,19 @@ const Share = () => {
         <div className=" flex justify-between items-center gap-2">
           <div className=" flex gap-1 my-3 items-center">
             <MdAddPhotoAlternate className=" text-blue-400 text-2xl" />
-            <span className=" text-xs">Photo or Video</span>
+            <span className=" text-xs hidden sm:block">Photo or Video</span>
           </div>
           <div className=" flex gap-1 my-3 items-center">
             <AiFillTag className=" text-blue-500 text-2xl" />
-            <span className=" text-xs">Tag</span>
+            <span className=" text-xs hidden sm:block">Tag</span>
           </div>
           <div className=" flex gap-1 my-3 items-center">
             <MdLocationOn className=" text-green-400 text-2xl" />
-            <span className=" text-xs">Location</span>
+            <span className=" text-xs hidden sm:block">Location</span>
           </div>
           <div className=" flex gap-1 my-3 items-center mr-2">
             <MdOutlineEmojiEmotions className=" text-orange-400 text-2xl" />
-            <span className=" text-xs">Feeling</span>
+            <span className=" text-xs hidden sm:block">Feeling</span>
           </div>
           <button className=" rounded-md bg-green-400 text-white text-sm px-2 py-1">
             Share
